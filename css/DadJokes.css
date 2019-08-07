@@ -1,0 +1,240 @@
+BODY
+{
+    FONT-SIZE: medium;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    MARGIN-TOP: 0pt;
+    BACKGROUND-COLOR: #ffffff
+}
+.headerbg
+{
+    COLOR: #073d5b;
+    BACKGROUND-COLOR: #98c4fe
+}
+.clsHead1, .clsHead2{
+    FONT-SIZE: 12pt !important;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    Padding: 4px 4px;
+}
+.clsHead1
+{
+    FONT-WEIGHT: bold;
+}
+.clsHead2
+{
+    FONT-WEIGHT: normal;
+}
+A
+.link 
+{color: #000080;} 
+.visited 
+{color: #000080;}
+
+.clsTextData
+{
+    FONT-SIZE: 9px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif
+}
+
+.NonEditTextArea
+{
+    FONT-SIZE: xx-small;
+    COLOR: gray;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    BACKGROUND-COLOR: #ededed
+}
+.Error
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: x-small;
+    COLOR: red;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    TEXT-ALIGN: center
+}
+.Warning
+{
+    FONT-WEIGHT: 500;
+    FONT-SIZE: x-small;
+    COLOR: blue;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    TEXT-ALIGN: center
+}
+.WorkNoteDisplay
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    COLOR: slategray;
+    BORDER-BOTTOM: black 1px solid;
+    BACKGROUND-COLOR: white
+}
+.Row0
+{
+    FONT-WEIGHT:normal;
+    FONT-SIZE: xx-small;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    BACKGROUND-COLOR: #b6d2f3
+}
+.Row1
+{
+    FONT-SIZE: xx-small;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    BACKGROUND-COLOR: #f2f2f2
+}
+.Row2
+{
+    FONT-SIZE: xx-small;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.TableRowSelect
+{
+    FONT-SIZE: xx-small;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    BACKGROUND-COLOR: #08486b
+}
+.caption
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: xx-small;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif
+}
+.caption2
+{
+    FONT-SIZE: xx-small;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    text-align: right;
+}
+.ColumnHeader
+{
+    FONT-WEIGHT: 800;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    TEXT-ALIGN: center
+}
+.RowLink
+{
+    COLOR: black
+}
+.HeaderLink
+{
+    COLOR: white
+}
+.clsSummaryLabelTask
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9px;
+    LINE-HEIGHT: 11px;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    TEXT-ALIGN: right
+}
+.clsSummaryTextTask
+{
+    FONT-SIZE: 9px;
+    OVERFLOW: hidden;
+    LINE-HEIGHT: 11px;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    TEXT-ALIGN: left
+}
+.clsTaskLabel
+{
+    FONT-SIZE: 9px;
+    LINE-HEIGHT: 13px;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    TEXT-ALIGN: left
+}
+.clsTaskDateLabel
+{
+    BORDER-RIGHT: black;
+    BORDER-TOP: black;
+    FONT-SIZE: 9px;
+    BORDER-LEFT: black;
+    LINE-HEIGHT: 13px;
+    BORDER-BOTTOM: black;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    BACKGROUND-COLOR: transparent;
+    TEXT-ALIGN: right
+}
+.clsListBox
+{
+    FONT-SIZE: 9px;
+    WIDTH: 200px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, 'Sans Serif';
+    HEIGHT: 80px
+}
+.clsPrefA
+{
+    FONT-WEIGHT: normal;
+    COLOR: #cccc99;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    TEXT-DECORATION: none
+}
+.clsPrefHead
+{
+    BACKGROUND-COLOR: #08486b
+}
+.clsPrefSelected
+{
+    FONT-WEIGHT: bold;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    TEXT-DECORATION: none
+}
+.clsCtl
+{
+    BACKGROUND-COLOR: white
+}
+.clsTabHeader
+{
+    FONT-SIZE: 12px;
+    COLOR: #cccc99;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #08486b
+}
+.DisabledNonEditTextArea
+{
+    FONT-SIZE: xx-small;
+    COLOR: gray;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+    BACKGROUND-COLOR: #ededed
+}
+.ModuleHeading
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE:large;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, 'Sans Serif';
+    BACKGROUND-COLOR: #0062e3;
+    height: 25px
+}
+.VersionLabel
+{
+	font-size : xx-small;
+}
+.FixedWidthReport
+{
+	FONT-FAMILY: "Courier New", Courier, monospace;
+	FONT-SIZE: small;
+}
+.Hiddencol
+    {
+        display:none;
+    }
+.UppercaseInput {
+    text-transform: uppercase;
+}
+.watermarked
+{
+     background-color:#ededed;
+     font-size:10px;
+     padding: 2px 0px 4px 2px;
+     font-style:italic;
+}

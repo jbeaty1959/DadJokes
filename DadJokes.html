@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DadJokes</title>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/json2.min.js"></script>
+    <script src="js/DadJokes.js"></script>
+    <link href="css/DadJokes.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server" style="width: 800px">
+        <div style="text-align:center; vertical-align: middle" class="ModuleHeading">The Best Dad Jokes</div>
+        <table style="width: 800px; padding: 0px; border: 0px; border-spacing: 0px; border-collapse: collapse">
+            <tr>
+                <td style="height: 30px; text-align: center">
+                    <div style="text-align: center">
+                        <label id="lblRandom" style="font: bold">Random</label>
+                        <input type="radio" name="Mode" id="rdoRandom" value="Random" checked="checked" />
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center">
+                        <label id="lblSearch" style="font: bold">Search</label>
+                        <input type="radio" name="Mode" id="rdoSearch" value="Search" />
+                        <input type="text" id="txtSearchWord" maxlength="20" hidden="hidden" value="" />
+                        <input type="button" id="btnSearch" hidden="hidden" value="Search" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id="divRandom">
+            <table id="tblRandom">
+                <tr>
+                    <td>
+                        <label id="lblJoke"></label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="divSearch" hidden="hidden">
+            <table id="tblSearch"></table>
+        </div>
+
+    </form>
+</body>
+</html>
